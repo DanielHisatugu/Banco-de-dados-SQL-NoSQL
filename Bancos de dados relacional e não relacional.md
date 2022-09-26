@@ -1,0 +1,17 @@
+### Bancos de dados relacional (SQL) e não relacional (NoSQL)
+
+Banco de dados (BD) é a estrutura para armazenar informações relacionadas (SQL) ou não relacionadas (NoSQL), significa que depende do contexto específico e das perguntas que queremos responder, utilizando uma combinação de linguagem e modelagem ideal.
+
+O retorno das informações e a forma como ocorrerá o processamento dos dados no SGBD são pontos críticos no momento de definição do contexto desejado para atender usuários, empresas, negócios, instituições de ensino, consumidores naives etc. Existem aplicações para automatizar e garantir uma experiência satisfatória do usuário dos BD, que deverá considerar as necessidades levantadas em alto nível junto ao tomador do negócio.
+
+A escolha do banco determina o tipo de processamento e de dados que serão persistidos, para poder garantir que as informações permanecerão consistentes durante a vida útil do BD. Dentro desse escopo, cabe ao engenheiro preparar a informação provendo ela de forma útil para o cientista ou analista de dados. Ambas as habilidades são complementares. Matemática e estatística são fundamentais nesse ambiente de engenharia de dados como skill complementar às ferramentas de tratamento de dados.
+
+O BD possui uma estrutura de dados mais rígida, garantindo a integridade e consistência dos dados no sistema, baseado nos dados que serão persistidos, modelados e que possuem relação entre si.
+
+Os BD não relacionais surgiram novamente em 2009 para atender novas necessidades de tratamento e armazenamento de dados, com caráter adicional aos bancos relacionais, pois precisam atender um volume maior de informação com escalabilidade horizontal de sistemas não rígidos de dados, entre inúmeras outras mídias, fotos, vídeos e gráficos. Ele consegue trabalhar armazenando informações de forma flexível, atendendo mídias sociais e volumes grandes de dados envolvendo eventos isolados e exceções de negócio, reduzindo a necessidade de joins, relações e consultas, facilitando a pesquisa em grandes volumes de informação com performance e velocidade de retorno. Também é possível ajustar a sua escalabilidade conforme a demanda, aumentando temporariamente para atender uma demanda maior de dados e usuários, realizando se necessário um downgrade posterior e otimizando os custos envolvidos.
+
+Como todo BD NoSQL trabalha em uma estrutura flexível e livre, há necessidade de possuir boas práticas e ter cuidados ao tratar os dados para consultas, definindo chaves e formas de consulta e evitando ao máximo gerar relações entre dados de documentos diferentes. As chaves devem ser armazenadas da forma mais correta possível para evitar dificuldades posteriores. Aplicações (API) devem ser pensadas para entender quais informações devem ser ignoradas ou não no tratamento desses dados. Mesmo não sendo um sistema rígido de modelagem, a modelagem deve ser previamente pensada inclusive prevista até onde essa flexibilidade pode ou não ser útil ao sistema como um todo.
+
+Bancos não relacionais flexibilizam o acesso à informação, sendo menos limitadas à rigidez, sendo contornáveis em inconsistências, inclusive em sistemas distribuídos.
+
+No BD NoSQL é possível manter a consistência dos dados com utilização de ferramentas de arquitetura como o Lake, envolvendo grandes volumes de informação altamente estruturadas ou totalmente flexíveis, oferecendo uma arquitetura que garante o acesso, a disponibilidade e a consistência das informações retornadas.
